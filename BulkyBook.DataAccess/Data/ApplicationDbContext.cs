@@ -1,7 +1,7 @@
-﻿using BulkyBookWeb.Models;
+﻿using BulkyBook.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyBookWeb.Data
+namespace BulkyBookWeb.DataAccess
 {
     public class ApplicationDbContext : DbContext
     {
@@ -14,5 +14,5 @@ namespace BulkyBookWeb.Data
         public DbSet<Catagory> Catagories { get; set; }
 
     }
-    
+
 }

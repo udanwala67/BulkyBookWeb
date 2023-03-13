@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BulkyBookWeb.Models
+namespace BulkyBook.Models
 {
     
     public class Catagory
@@ -13,3 +13,6 @@ namespace BulkyBookWeb.Models
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;
     }
 }
+
+
+
